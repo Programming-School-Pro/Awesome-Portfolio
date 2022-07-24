@@ -53,4 +53,71 @@ const experienceList = [
     },
 ];
 
-export { skillsList, projectList, experienceList };
+const educations = [
+  {
+    id: 1,
+    degreeTitle: "degree 1",
+    school: "School Name",
+    location: "City, Country",
+    duration: {
+      start: "2012",
+      end: "2014",
+    },
+    links: {},
+  },
+  {
+    id: 2,
+    degreeTitle: "degree 2",
+    school: "College Name",
+    location: "City, Country",
+    duration: {
+      start: "2012",
+      end: "2014",
+    },
+    links: {},
+  },
+  {
+    id: 3,
+    degreeTitle: "degree 3",
+    school: "University Name",
+    location: "City, Country",
+    duration: {
+      start: "2012",
+      end: "2014",
+    },
+    links: {},
+  },
+];
+
+const certificates = [
+  {
+    id: 0,
+    title: "Certificate 1",
+    issuedBy: "XYZ Organization",
+    nature: "Course",
+    date: "July 2020",
+    image: "",
+    url: null,
+  },
+
+  {
+    id: 1,
+    title: "Certificate 2",
+    issuedBy: "XYZ Organization",
+    nature: "Specialization",
+    date: "July 2020",
+    image: "",
+    url: null,
+  },
+  {
+    id: 2,
+    title: "Certificate 3",
+    issuedBy: "XYZ Organization",
+    nature: "Workshop",
+    date: "July 2020",
+    image: "",
+    url: null,
+  }
+];
+
+export { skillsList, projectList, experienceList, educations, certificates };

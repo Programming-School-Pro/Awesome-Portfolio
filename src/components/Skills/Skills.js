@@ -47,6 +47,7 @@ const useStyles = makeStyles((theme) => ({
         marginRight: theme.spacing(1),
     },
     paper:{
+        backgroundColor: theme.palette.primary.main,
         marginRight:"10px",
         marginBottom:"10px",
         minWidth:"50px",

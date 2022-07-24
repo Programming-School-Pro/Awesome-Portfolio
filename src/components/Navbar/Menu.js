@@ -104,12 +104,20 @@ const Menu = ({homeIsActive}) => {
                     component={AnimatedLink}
                     animate={controls}
                     custom={3}
-                    to="contact"
-                    label={t('menu_contact')}
+                    to="know_more"
+                    label={t('menu_know_more')}
                     onSetActive={() => spyHandleChange(3)}
                 />
+                <StyledTab
+                    component={AnimatedLink}
+                    animate={controls}
+                    custom={4}
+                    to="contact"
+                    label={t('menu_contact')}
+                    onSetActive={() => spyHandleChange(4)}
+                />
             </StyledTabs>
-            <motion.div custom={4} animate={controls}>
+            <motion.div custom={5} animate={controls}>
                 <Button
                     component={MuiLink}
                     href="/resume.pdf"

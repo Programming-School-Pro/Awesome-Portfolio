@@ -4,7 +4,7 @@ import typography from "./typography";
 const baseTheme = {
     breakpoints: {
         values: {
-            xs: 0,
+            xs: 600,
             sm: 700,
             md: 960,
             lg: 1320,
@@ -36,7 +36,7 @@ const darkTheme = createTheme({
     palette: {
         background: {
             default: "#1A1A1A ",
-            paper:"#bd3b22"
+            paper:"#242424"
         },
         primary: {
             main: "#bd3b22",
@@ -63,6 +63,7 @@ const lightTheme = createTheme({
     palette: {
         background: {
             default: "#DEBA9D",
+            paper:"#e0c5af"
         },
         primary: {
             main: "#9E7777",

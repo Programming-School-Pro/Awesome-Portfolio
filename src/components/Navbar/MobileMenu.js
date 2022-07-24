@@ -34,6 +34,9 @@ const MobileMenu = ({ open, onClose, onOpen }) => {
                     <ListItem {...listItemProps} to="projects">
                         {t('menu_projects')}
                     </ListItem>
+                    <ListItem {...listItemProps} to="know_more">
+                        {t('menu_know_more')}
+                    </ListItem>
                     <ListItem {...listItemProps} to="contact">
                         {t('menu_contact')}
                     </ListItem>

@@ -1,0 +1,49 @@
+.wrapper {
+  position: relative;
+  min-height: 150px;
+  box-sizing: content-box;
+}
+#tab {
+  position: absolute;
+  top: -120px;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  height: 52px;
+  -webkit-transform-origin: 0 0;
+  -moz-transform-origin: 0 0;
+  -o-transform-origin: 0 0;
+  transform-origin: 0 0;
+  -webkit-transform: rotate(-90deg) translate(-488px, 0px);
+  -moz-transform: rotate(-90deg) translate(-488px, 0px);
+  -o-transform: rotate(-90deg) translate(-488px, 0px);
+  transform: rotate(-90deg) translate(-488px, 0px);
+  filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=3);
+}
+#tab li {
+  float: left;
+  height: 80px;
+}
+#tab li div {
+  display: block;
+  padding: 10px;
+  margin-left: 10px;
+  font-family: Arial, sans-serif;
+  font-size: 18px;
+  line-height: 30px;
+  font-weight: light;
+  text-decoration: none;
+  color: rgb(255, 255, 255);
+  letter-spacing: 2.5px;
+  text-align: center;
+  cursor: pointer;
+}
+#tab li div:hover {
+    color: red
+}
+
+.body {
+  position: relative;
+  top: -170px; 
+  margin-left: 110px;
+}

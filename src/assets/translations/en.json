@@ -7,6 +7,7 @@
     "home_job": "Full stack web developer, UI/UX designer, freelancer, Github addict.",
     "home_location": "Based in sousse, Tunisia.",
     "home_contact_btn": "Get in touch",
+    "menu_know_more": "Know More",
     "menu_about": "About",
     "menu_projects": "Projects",
     "menu_experience": "Experience",
@@ -27,5 +28,6 @@
     "projects_3_extended_overview": "Burpees.io is a solution for gyms. you can see plannings, take reservations and more. We've developed a white labalise app: If a client wants his native application it will be generated automatically. The dashboard is for the gym owner.",
     "contact_full_name": "Full name",
     "contact_email": "E-mail adress",
-    "contact_btn": "Send message"
+    "contact_btn": "Send message",
+    "project_load_btn": "Load more"
 }
